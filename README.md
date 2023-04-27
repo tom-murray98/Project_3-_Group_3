@@ -4,6 +4,9 @@ All scripts used in project 3 by Group 3.
 
 All batch scripts were run via the University of Nottingham HPC and SLURM.
 
+PCA_R.R - 
+Generation of PCA plots for all populations of Cochlearia
+
 ADMIXTURE.sh - 
 Similar to fastSTRUCTURE, installed and ran following the pipeline instructions on https://speciationgenomics.github.io/ADMIXTURE/
 
