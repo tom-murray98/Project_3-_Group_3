@@ -6,6 +6,7 @@ All batch scripts were run via the University of Nottingham HPC and SLURM.
 
 ADMIXTURE.sh - 
 Similar to fastSTRUCTURE, installed and ran following the pipeline instructions on https://speciationgenomics.github.io/ADMIXTURE/
+
 Pong (https://github.com/ramachandran-lab/pong) as a visualisation of ADMIXTURE
 
 GATK.sh -
