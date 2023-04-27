@@ -22,3 +22,5 @@ Conda environment created in the command line for local usage using packages lis
 
 Bedtools.sh - 
 Used to intersect regions between gene outliers and annoted reference to identify gene orthologues
+
+All batch files written by Tom Murray
