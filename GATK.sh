@@ -17,3 +17,5 @@ gatk SelectVariants -V LAB_NEN_ODN.clean_BI.ann.vcf.gz -sn ODN_2 -sn ODN_4 -sn O
 gatk VariantsToTable -V LAB_AF_filt.vcf -R excelsa_V5.fa -F CHROM -F POS -F AC -F AN -F DP -GF GT -O LAB_AF_RAW.table
 gatk VariantsToTable -V NEN_AF_filt.vcf -R excelsa_V5.fa -F CHROM -F POS -F AC -F AN -F DP -GF GT -O NEN_AF_RAW.table
 gatk VariantsToTable -V ODN_AF_filt.vcf -R excelsa_V5.fa -F CHROM -F POS -F AC -F AN -F DP -GF GT -O ODN_AF_RAW.table
+
+conda deactivate
