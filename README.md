@@ -9,5 +9,5 @@ The first step in filtering the individuals LAB, NEN and ODN from raw VCF (this 
 
 Scantools.sh - 
 Takes output from gatk and splits VCFs based on population, then merges two population files for downstream analysis. 
-Using pipeline from Scantools : https://github.com/pmonnahan/ScanTools
+Using pipeline from Scantools : https://github.com/pmonnahan/ScanTools .
 Conda environment created in the command line for local usage using packages listed on github
