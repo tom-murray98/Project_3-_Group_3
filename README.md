@@ -19,3 +19,6 @@ Scantools.sh -
 Takes output from gatk and splits VCFs based on population, then merges two population files for downstream analysis. 
 Using pipeline from Scantools : https://github.com/pmonnahan/ScanTools .
 Conda environment created in the command line for local usage using packages listed on github
+
+Bedtools.sh - 
+Used to intersect regions between gene outliers and annoted reference to identify gene orthologues
