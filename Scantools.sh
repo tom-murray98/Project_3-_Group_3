@@ -13,7 +13,7 @@ conda activate /shared/home/mbxtm2/miniconda3/envs/my-py
 # recode012.py
 
         # LAB
-        python3 /shared/home/mbxtm2/Scantools_LIFE4137/recode012.pyy -i LAB_AF_RAW.table -o /shared/home/mbxtm2/Scantools_LIFE4137/ -pop LAB
+        python3 /shared/home/mbxtm2/Scantools_LIFE4137/recode012.py -i LAB_AF_RAW.table -o /shared/home/mbxtm2/Scantools_LIFE4137/ -pop LAB
         # NEN
         python3 /shared/home/mbxtm2/Scantools_LIFE4137/recode012.py -i NEN_AF_RAW.table -o /shared/home/mbxtm2/Scantools_LIFE4137/ -pop NEN
         # ODN
