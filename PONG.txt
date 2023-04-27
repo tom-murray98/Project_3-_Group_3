@@ -1,0 +1,12 @@
+#Steps of running pong from ADMIXTURE population list file FILEMAP.txt
+
+#conda environment activated
+conda activate /shared/home/mbxtm2/miniconda3/envs/my-pong-env
+
+#Ran in command line
+pong -m FILEMAP.txt -i LAB_NEN_ODN.ann.vcf.gz.list
+
+# Pong attempts to open visisualisation through your local web browser, the following code was used in the command line
+# in a separate window before navigating to http://localhost:4000 on the local web browser
+
+ssh -N -L 4000:localhost:4000 mbxtm2@10.102.161.7
